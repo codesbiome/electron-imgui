@@ -26,7 +26,26 @@ Electron ImGui (EmGui) is a minimal boilerplate for writing Desktop (Realtime) G
 
 ## Installation
 
-Work in Progress...
+#### To install the EmGui Boilerplate you need to run following commands
+
+```bash
+# Clone repository
+git clone https://github.com/codesbiome/electron-imgui
+
+# Change to cloned repository folder
+cd electron-imgui
+```
+
+<br>
+
+Install dependencies using [Yarn](https://www.npmjs.com/package/yarn) or [NPM](https://www.npmjs.com/) :
+
+```bash
+yarn install
+```
+
+<br />
+
 
 <br />
 
