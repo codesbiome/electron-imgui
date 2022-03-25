@@ -1,0 +1,81 @@
+{
+  "name": "electron-imgui",
+  "productName": "Electron ImGui",
+  "version": "1.0.0",
+  "description": "Electron ImGui (EmGui) is a minimal boilerplate for writing Desktop (Realtime) Graphics Applications using Electron, ImGui, OpenGL, Webpack & TypeScript",
+  "main": ".webpack/main",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "eslint src/ --ext .ts,.js,.tsx,.jsx"
+  },
+  "keywords": [
+    "imgui boilerplate",
+    "minimal",
+    "electron-webpack",
+    "electron-imgui",
+    "electron-typescript",
+    "boilerplate",
+    "2022"
+  ],
+  "author": {
+    "name": "codesbiome",
+    "url": "https://github.com/codesbiome"
+  },
+  "contributors": [
+    {
+      "name": "guasam",
+      "url": "https://github.com/guasam"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codesbiome/electron-imgui"
+  },
+  "license": "MIT",
+  "config": {
+    "forge": "./tools/forge/forge.config.js"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "6.0.0-beta.63",
+    "@electron-forge/maker-deb": "6.0.0-beta.63",
+    "@electron-forge/maker-rpm": "6.0.0-beta.63",
+    "@electron-forge/maker-squirrel": "6.0.0-beta.63",
+    "@electron-forge/maker-zip": "6.0.0-beta.63",
+    "@electron-forge/plugin-webpack": "6.0.0-beta.63",
+    "@marshallofsound/webpack-asset-relocator-loader": "^0.5.0",
+    "@types/node": "^17.0.19",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "@types/webpack-env": "^1.16.3",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "classnames": "^2.3.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.6.0",
+    "electron": "^17.0.1",
+    "eslint": "^8.9.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-react": "^7.28.0",
+    "file-loader": "^6.2.0",
+    "fork-ts-checker-webpack-plugin": "^7.2.1",
+    "less": "^4.1.2",
+    "less-loader": "10.2.0",
+    "node-loader": "^2.0.0",
+    "react-hot-loader": "^4.13.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.69.1"
+  },
+  "dependencies": {
+    "@hot-loader/react-dom": "^17.0.2",
+    "electron-squirrel-startup": "^1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "systemjs": "^6.12.1"
+  }
+}

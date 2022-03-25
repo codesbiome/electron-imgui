@@ -1,0 +1,3 @@
+[submodule "misc/imgui-js"]
+	path = misc/imgui-js
+	url = https://github.com/flyover/imgui-js
