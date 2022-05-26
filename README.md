@@ -30,7 +30,7 @@ Electron ImGui (EmGui) is a minimal boilerplate for writing Desktop (Realtime) G
 
 ```bash
 # Clone repository
-git clone https://github.com/codesbiome/electron-imgui
+git clone --recurse-submodules https://github.com/codesbiome/electron-imgui
 
 # Change to cloned repository folder
 cd electron-imgui
